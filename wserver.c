@@ -95,15 +95,16 @@ void *consumer(void *arg) {
     return NULL;
 }
 
-// ./wserver [-d <basedir>] [-p <portnum>] 
+//
+// ./wserver [-d <basedir>] [-p <portnum>]
+//
 int main(int argc, char *argv[]) {
     int c;
     char *root_dir = ROOTDIR;
-    int port = PORT; // default port
-	int threads = NUMOFTHREADS; // number of workers
-	int buffers = 30;
-	// the number of request connections 
-	// that can be accepted at one time
+    int port = PORT;            // default port
+	int threads = NUMOFTHREADS; // default number of workers
+	int buffers = BUFFERSIZE;   // default buffer size
+	
 	buffer = (buffer_ele *) malloc(buffers * sizeof(buffer_ele));
     assert(buffer != NULL);
 
