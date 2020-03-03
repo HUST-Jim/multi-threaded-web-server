@@ -12,5 +12,5 @@
 
 ## 效果
 
-![截屏2020-03-03上午11.46.58](/Users/zhugod/Desktop/screenshots/截屏2020-03-03上午11.46.58.png)
+![pic](files/pic.png)
 
