@@ -14,3 +14,8 @@
 
 ![pic](files/pic.png)
 
+## 并发测试
+
+使用Apache的`ab`工具进行并发测试：
+
+![bingfa](files/bingfa.png)
